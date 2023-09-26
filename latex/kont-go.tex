@@ -1,0 +1,42 @@
+
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{ mathrsfs }
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[margin=0.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{ulem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\usepackage{hyperref}
+\usepackage[autostyle]{csquotes}
+
+\usepackage{cancel}
+\renewcommand{\i}{\textit}
+\renewcommand{\b}{\textbf}
+\newcommand{\q}{\enquote}
+%\vskip1.0in
+
+
+
+\begin{document}
+
+\begin{huge}
+
+{\setstretch{0.0}{
+Kontinuum [ Go Version ]
+
+This program displays the evolution of a continuous cellular automaton which is itself randomly evolving. What appears as a rectangular grid is computationally a torus, featuring both vertical and horizontal wraparound. This version has important extra features. Users can save and load filter settings called \q{cartridges.}
+
+Filters and resolution are controlled using left and right shift keys and the number keys. For instance, holding \b{right shift} and pressing and releasing \b{8} will switch the system to using 8 filters. But holding \b{left shift} and pressing and releasing \b{8} will randomize only the eighth filter (if there is one.) Using the \b{left control} key with the number keys allows for a change of pixel resolution. 
+
+
+Press and release \b{S} to reseed the environment, and use \b{F} or \b{P} to randomize the filters. Pressing and releasing \b{P} also randomizes the \q{power} (roughly, contrast) of the filters.
+
+
+}}
+\end{huge}
+\end{document}
